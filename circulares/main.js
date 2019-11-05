@@ -5,8 +5,8 @@ var vacio = 0;
 var act;
 
 for (var i = 0; i < 300; i++) {
-	if (Math.trunc(Math.random()*100+1) <= 39) {
-		cola.agregar(new Nodo("p"+n));
+	if (Math.trunc(Math.random() * 100 + 1) <= 39) {
+		cola.agregar(new Nodo("p" + n));
 		if (n == 1) {
 			act = cola.primero;
 		}
@@ -20,7 +20,7 @@ for (var i = 0; i < 300; i++) {
 			completados++;
 		}
 		act = act.sig;
-	}else{
+	} else {
 		vacio++;
 	}
 
